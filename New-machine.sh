@@ -16,6 +16,9 @@
 
 
 #BASICS
+echo ''
+echo -e '\e[0;34m Getting Basics \e[0m'
+echo ''
 
 	#mkdir
 
@@ -38,11 +41,17 @@
 	#go
 		apt install golang	
 
+	#sublime
+		wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -; echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list; sudo apt-get install sublime-text || echo -e '\e[0;31m ALREADY EXISTS \e[0m'
+
 #BASIC-PENTESTING
+echo ''
+echo -e '\e[0;34m Getting Basic-pentesting \e[0m'
+echo ''
 
 
 	#mkdir
-		mkdir ../Basics
+		#mkdir ../Basics
 
 	#nmap
 		apt install nmap
@@ -59,9 +68,6 @@
 	#crackmapexec
 		sudo apt install -t kali-rolling crackmapexec
 
-	#impacket
-
-
 	#wireshark
 		sudo apt install -t kali-rolling wireshark
 
@@ -75,6 +81,9 @@
 
 
 #BRUTEFORCING
+echo ''
+echo -e '\e[0;34m Getting Bruteforcing \e[0m'
+echo ''
 
 
 	#mkdir
@@ -90,6 +99,9 @@
 
 
 #WEB-TOOLS
+echo ''
+echo -e '\e[0;34m Getting Web-Tools \e[0m'
+echo ''
 
 
 	#mkdir
@@ -118,6 +130,9 @@
 
 
 #WIRELESS
+echo ''
+echo -e '\e[0;34m Getting Wireless \e[0m'
+echo ''
 
 
 	#mkdir
@@ -130,9 +145,15 @@
 
 
 #PRIVESC
+echo ''
+echo -e '\e[0;34m Getting Privesc \e[0m'
+echo ''
 
 
 	#mkdir
+
+
+	#impacket
 
 
 	#linenum
@@ -160,6 +181,9 @@
 
 
 #ACTIVE-DIRECTORY
+echo ''
+echo -e '\e[0;34m Getting Active-Directory \e[0m'
+echo ''
 
 
 	#mkdir
